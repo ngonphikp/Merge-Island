@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6BCF1753-8618-A6C0-7F1D-4322E3AED478}</ProjectGuid>
+    <ProjectGuid>{070B6B0E-E10D-C3E8-11D6-87D03D9A373A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -53,25 +53,28 @@
     <UnityVersion>2020.3.13f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Plugins\Mosframe\ScrollView\DynamicScrollViewItem.cs" />
+    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Plugins\Mosframe\ScrollView\DynamicHScrollView.cs" />
+    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Plugins\Mosframe\Common\ScrollbarHandleSize.cs" />
+    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Plugins\Mosframe\Common\HtmlColor.cs" />
+    <Compile Include="Assets\Plugins\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Plugins\Mosframe\Common\HtmlColorExtensions.cs" />
     <Compile Include="Assets\Plugins\Mosframe\ScrollView\DynamicVScrollView.cs" />
     <Compile Include="Assets\Plugins\Mosframe\ScrollView\DynamicScrollViewItemExample.cs" />
     <Compile Include="Assets\Plugins\Mosframe\Extensions\RectTransformEx.cs" />
+    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Plugins\Mosframe\Common\RichText.cs" />
     <Compile Include="Assets\Plugins\Trinary Software\Timing.cs" />
     <Compile Include="Assets\Plugins\Mosframe\ScrollView\DynamicScrollView.cs" />
-    <Compile Include="Assets\Plugins\Mosframe\Extensions\GameObjectEx.cs" />
-    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Plugins\Joystick Pack\Examples\JoystickPlayerExample.cs" />
-    <Compile Include="Assets\Plugins\Joystick Pack\Examples\JoystickSetterExample.cs" />
-    <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Plugins\Mosframe\Extensions\GameObjectEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\System.Memory.dll" />
@@ -760,63 +763,63 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="LeanCommonPlus.csproj">
-      <Project>{B04F0D55-728A-B65E-EDB0-683B80DB41D1}</Project>
+      <Project>{07758457-48BF-29F8-DA6D-4B533A6B2E80}</Project>
       <Name>LeanCommonPlus</Name>
     </ProjectReference>
     <ProjectReference Include="LeanTouchPlus.csproj">
-      <Project>{485C2B3F-B4EA-6E14-8A65-FF0AF3C322B5}</Project>
+      <Project>{CAA6A483-BBE8-D025-5631-BDECE00DA789}</Project>
       <Name>LeanTouchPlus</Name>
     </ProjectReference>
     <ProjectReference Include="LeanTouch.csproj">
-      <Project>{A0BA7023-F74C-B324-A66E-D5082C007921}</Project>
+      <Project>{C4FDF5A2-3A6D-8068-8770-B723CA0B13F9}</Project>
       <Name>LeanTouch</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity.csproj">
-      <Project>{DEA161A4-E723-5586-88E9-77780F650FE7}</Project>
+      <Project>{4E221277-43DE-1EFC-2307-295D2AFEF5EA}</Project>
       <Name>spine-unity</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
-      <Project>{7E181A26-7561-51E1-6EF6-1F3C3367B9FD}</Project>
+      <Project>{89DF8340-5F0F-93F1-B6B4-0CE5CE325EF1}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.DOTween.csproj">
-      <Project>{EBF8B067-EE0C-804D-BCA2-36089D27D29A}</Project>
+      <Project>{33171D62-2352-2547-5A1A-0771CD6AB0EC}</Project>
       <Name>UniTask.DOTween</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Linq.csproj">
-      <Project>{7841F5B5-2CAE-0A37-797D-8BD8DBCC0133}</Project>
+      <Project>{5AE4FFC5-A284-8C15-A6C9-BEED6B75CEB8}</Project>
       <Name>UniTask.Linq</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
-      <Project>{E3B767A0-633C-72E1-D79E-6AFD03C40A60}</Project>
+      <Project>{68DE1D8D-4AE2-C17B-5BEE-8924EACAE22E}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
     <ProjectReference Include="LeanPool.csproj">
-      <Project>{58F6DCBC-77E7-5C4A-60CC-AC0FC465909C}</Project>
+      <Project>{50B39D8E-CB86-32F0-BAF4-98FFEC277F4B}</Project>
       <Name>LeanPool</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{24E6A959-4F4F-C9D3-B1FA-551CBA075F12}</Project>
+      <Project>{3F3F6D7D-866D-074F-39A4-5D9953A8F990}</Project>
       <Name>UniTask.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="LeanCommon.csproj">
-      <Project>{4EA9C9D7-4A9E-085A-D013-5672A92B6B82}</Project>
+      <Project>{F23D805F-0A2C-590F-595A-F819AF0524D7}</Project>
       <Name>LeanCommon</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity-editor.csproj">
-      <Project>{B17CBEF7-2007-D93E-049A-76F16812C84C}</Project>
+      <Project>{B6F566E0-D17E-AC89-EADE-89C05C508229}</Project>
       <Name>spine-unity-editor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
-      <Project>{79E46211-617A-0BF8-8D8E-6E7C3F8A9A65}</Project>
+      <Project>{3727F497-D8FC-07A2-1EFE-E3C9554C50AA}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.csproj">
-      <Project>{2205BF13-7A7B-A6D2-9F8E-BA6CF543E183}</Project>
+      <Project>{E34C3028-3A5C-DE32-3014-27389E47DC6A}</Project>
       <Name>UniTask</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Addressables.csproj">
-      <Project>{B18161AC-6779-AB0E-1C57-4FF834CBE2A7}</Project>
+      <Project>{21EECD61-C592-A525-D735-0FC77A5DBE92}</Project>
       <Name>UniTask.Addressables</Name>
     </ProjectReference>
   </ItemGroup>

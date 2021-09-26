@@ -7,18 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3568705778259907712, guid: 1cdce8cddab594340802282622d29568, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3568705778259907712, guid: 1cdce8cddab594340802282622d29568, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3568705778259907712, guid: 1cdce8cddab594340802282622d29568, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3568705778362690208, guid: 1cdce8cddab594340802282622d29568, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -65,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3568705778362690223, guid: 1cdce8cddab594340802282622d29568, type: 3}
       propertyPath: m_Name
-      value: Circle_2
+      value: Wood_2
       objectReference: {fileID: 0}
     - target: {fileID: 4698926285330767259, guid: 1cdce8cddab594340802282622d29568, type: 3}
       propertyPath: m_text

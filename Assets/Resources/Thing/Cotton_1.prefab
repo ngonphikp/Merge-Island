@@ -7,18 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 763660831863017157, guid: 8c0dab294c1c4334d817b8e58fd96eba, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 763660831863017157, guid: 8c0dab294c1c4334d817b8e58fd96eba, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 763660831863017157, guid: 8c0dab294c1c4334d817b8e58fd96eba, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 763660832771076325, guid: 8c0dab294c1c4334d817b8e58fd96eba, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -65,11 +53,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 763660832771076330, guid: 8c0dab294c1c4334d817b8e58fd96eba, type: 3}
       propertyPath: m_Name
-      value: Square_1
+      value: Cotton_1
       objectReference: {fileID: 0}
     - target: {fileID: 8802979311446460382, guid: 8c0dab294c1c4334d817b8e58fd96eba, type: 3}
       propertyPath: m_text
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802979311446460382, guid: 8c0dab294c1c4334d817b8e58fd96eba, type: 3}
+      propertyPath: m_fontSize
+      value: 3.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c0dab294c1c4334d817b8e58fd96eba, type: 3}

@@ -10,7 +10,9 @@ public enum ThingType
     Cotton = 2,
     Pumpkin = 3,
     Corn = 4,
-    Copper = 5,
-    Ruby = 6,
-    Chest = 7
+    Apple = 5,
+    Copper = 6,
+    Ruby = 7,
+    Chest = 8,
+    Treasure = 9
 }

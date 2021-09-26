@@ -16,6 +16,8 @@ public class Sea : MonoBehaviour
     [SerializeField] float timeSpawn = 1f;
     float time = 0f;
 
+    List<ThingType> types = new List<ThingType>() { ThingType.Wood, ThingType.Chest, ThingType.Treasure };
+
     private void Start()
     {
         inpTimeSpawn.text = timeSpawn.ToString();
@@ -58,7 +60,7 @@ public class Sea : MonoBehaviour
             if (position.y < minCoordDanger.y) break;
         }        
 
-        var thing = CreateThing((ThingType)Random.Range(0, 3), 0);
+        var thing = CreateThing(FormulaHelper.RandomValueInList(types), 0);
 
         thing.gameObject.transform.position = position;
     }

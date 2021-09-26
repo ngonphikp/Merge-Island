@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &9167585542463843652
+--- !u!1001 &4116643072984059641
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,15 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2530645830730348616, guid: 6e584602530b26647a5c0bf1f26fe906, type: 3}
       propertyPath: m_text
-      value: 4
+      value: Tower 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6029702566121795923, guid: 6e584602530b26647a5c0bf1f26fe906, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6029702566121795923, guid: 6e584602530b26647a5c0bf1f26fe906, type: 3}
-      propertyPath: m_Color.r
-      value: 0
+    - target: {fileID: 2530645830730348616, guid: 6e584602530b26647a5c0bf1f26fe906, type: 3}
+      propertyPath: m_fontSize
+      value: 3.15
       objectReference: {fileID: 0}
     - target: {fileID: 6029702567092719475, guid: 6e584602530b26647a5c0bf1f26fe906, type: 3}
       propertyPath: m_RootOrder
@@ -65,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6029702567092719484, guid: 6e584602530b26647a5c0bf1f26fe906, type: 3}
       propertyPath: m_Name
-      value: Hexagon_3
+      value: Stone_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e584602530b26647a5c0bf1f26fe906, type: 3}

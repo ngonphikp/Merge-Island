@@ -60,7 +60,7 @@ public class MainMode : GameCore
 
     public void GenThing()
     {
-        GenThing(new Coord(), (ThingType)Random.Range(0, 3), 0);
+        GenThing(new Coord(), (ThingType)Random.Range(0, 5), 0);
     }
 
     public void GenLand()

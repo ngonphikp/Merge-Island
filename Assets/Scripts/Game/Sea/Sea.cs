@@ -16,7 +16,8 @@ public class Sea : MonoBehaviour
     [SerializeField] float timeSpawn = 1f;
     float time = 0f;
 
-    List<ThingType> types = new List<ThingType>() { ThingType.Wood, ThingType.Chest, ThingType.Treasure };
+    //List<ThingType> types = new List<ThingType>() { ThingType.Wood, ThingType.Chest, ThingType.Treasure };
+    List<ThingType> types = new List<ThingType>() { ThingType.Wood, ThingType.Stone, ThingType.Cotton, ThingType.Pumpkin, ThingType.Corn };
 
     private void Start()
     {
